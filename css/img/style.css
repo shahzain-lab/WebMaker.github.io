@@ -391,3 +391,54 @@ form:hover .form-btn button{
 ::placeholder{
     font-size: .85rem;
 }
+
+
+/* /////subscribe/// */
+.sub-sec{
+    width: 100%;
+    height: auto;
+    margin: 80px 0;
+}
+
+.news{
+    border-radius: 100px 0 0 100px!important;
+    min-width: 150px;
+    min-width: 45px;
+}
+
+.input-group-text{
+    border-radius: 0 100px 100px 0!important;
+    background: #5bc0de!important;
+    color: #fff!important;
+    min-width: 140px;
+    min-height: 40px;
+}
+
+/* ///////foooter/// */
+
+.footersection{
+  width: 100%;
+  height: auto;
+  padding: 70px 0 20px 0;
+  background: #00abff;
+  position: relative;
+}
+.footersection p{
+    color: #ffff;
+}
+.footersection li a{
+    font-size: .9rem;
+    line-height: 1.6;
+    font-weight: 400;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.footersection h3{
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-shadow: 0 2px 5px (0,0,0,0.4);
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    color: #fff;
+}
