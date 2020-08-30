@@ -101,7 +101,7 @@ i{
     color: #fff;
     line-height: 1.4;
     padding: 12px 35px;
-    margin: 0 5px;
+    margin: 0px 5px;
     font-size: 1rem;
     font-weight: bold;
     outline: none;
@@ -222,6 +222,7 @@ i{
 }
 .card-body li{
     margin: 10px 0!important;
+    
     font-weight: 400;
     font-size: 15px;
     line-height: 2!important;
@@ -369,6 +370,7 @@ i{
     margin:20px 0;
 }
 
+
 .form-btn button{
     border: 1px solid #50d1c0;
     border-radius: 100px;
@@ -442,3 +444,355 @@ form:hover .form-btn button{
     text-transform: uppercase;
     color: #fff;
 }
+
+
+/* //////////responsible/////*/
+ /* @media only screen and(max-device-width: 768px) */
+ @media only screen and (min-device-width: 320px) and (max-device-width: 960px){ 
+
+    .nav-item{
+        text-align: center!important;
+        ;
+    }
+    .nav-item {
+        border: 2px solid #fff;
+        margin: 3px 250px;
+    }
+
+    .nav-item a{
+        background: #fff;
+        color: #00abff!important;
+    }
+    .nav-item a:hover{
+        color: #fff!important;
+        background:#00abff ;
+    }
+    .bloxkdiv{
+        margin-top: 300px;
+    }
+    
+    .pricing{
+        height: auto!important;
+        margin-top: 50px!important;
+       
+    }
+
+    .secdiv, .contactus ,.clients{
+        transform: translateY(0px)!important;
+        margin: 50px 0px!important;
+        overflow-x: hidden!important;
+    }
+    .contactus{
+        overflow-y: hidden;
+    }
+    .clients{
+        
+          height: 50%;
+        
+           margin-bottom: 100px!important;
+       
+    }
+   
+    .contactus p{
+        padding: 0 50px;
+    }
+     
+    
+} 
+@media only screen and (min-device-width: 320px) and (max-device-width: 400px){
+    .nav-item {
+        border: 2px solid #fff;
+        margin: 3px 70px;
+    }
+    .nav-item a{
+        background: #fff;
+        color: #00abff!important;
+    }
+    .nav-item a:hover{
+        color: #fff!important;
+        background:#00abff ;
+    }
+    .navbar h2{
+        font-size: 1.3rem; 
+    }
+    .center-div h1{
+        font-size: 1.4rem!important;
+        font-weight: 600;
+    }
+    .header-sec p{
+        font-size: .8rem;
+        margin-top: 20px;
+    }
+    .header-btns a{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: .9rem;
+        margin:10px 70px!important;
+        
+    }
+    .header-btns{
+       padding: 12px 15px;
+    }
+    .income h1{
+        font-size: 1.5rem;
+    }
+    .income p{
+        font-size: .6rem;
+    }
+    .heading h1{
+        font-size: 1.4rem;
+    }
+   
+    .card-body{
+        padding: 10px 0px!important;
+    }
+    .card-body li{
+        font-size: .9rem;
+        margin: 2px 0!important;
+        line-height: 1.8 !important;
+    }
+  
+    .card-footer a{
+        padding: 5px 15px;
+        font-size: 1rem;
+        outline: none;
+    }
+    .contactus p{
+        font-size: .8rem;
+       
+        
+    }
+   
+    .input-group-text{
+        min-width: 40px;
+    }
+    .footerdiv h3{
+        margin-top: 30px;
+    }
+
+}
+@media only screen and (min-device-width: 400px) and (max-device-width: 500px){
+    .nav-item {
+        border: 2px solid #fff;
+        margin: 3px 130px;
+    }
+    .nav-item a{
+        background: #fff;
+        color: #00abff!important;
+    }
+    .nav-item a:hover{
+        color: #fff!important;
+        background:#00abff ;
+    }
+    .navbar h2{
+        font-size: 1.3rem; 
+    }
+    .header-sec h1{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .header-sec p{
+        font-size: .8rem;
+        margin-top: 20px;
+    }
+    .header-btns a{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: .9rem;
+        margin:10px 130px!important;
+        
+    }
+    .header-btns{
+       padding: 12px 15px;
+    }
+    .income h1{
+        font-size: 1.5rem;
+    }
+    .income p{
+        font-size: .6rem;
+    }
+    .heading h1{
+        font-size: 1.4rem;
+    }
+   
+    .card-body{
+        padding: 10px 0px!important;
+    }
+    .card-body li{
+        font-size: .9rem;
+        margin: 2px 0!important;
+        line-height: 1.8 !important;
+    }
+  
+    .card-footer a{
+        padding: 5px 15px;
+        font-size: 1rem;
+        outline: none;
+    }
+    .contactus p{
+        font-size: .7rem;
+       
+        
+    }
+   
+    .input-group-text{
+        min-width: 40px;
+    }
+    .footerdiv h3{
+        margin-top: 30px;
+    }
+}
+@media only screen and (min-device-width: 500px) and (max-device-width: 768px){
+    .nav-item {
+        border: 2px solid #fff;
+        margin: 3px 170px;
+    }
+    .nav-item a{
+        background: #fff;
+        color: #00abff!important;
+    }
+    .nav-item a:hover{
+        color: #fff!important;
+        background:#00abff ;
+    }
+    .navbar h2{
+        font-size: 1.3rem; 
+    }
+    .header-sec h1{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .header-sec p{
+        font-size: .8rem;
+        margin-top: 20px;
+    }
+    .header-btns a{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: .9rem;
+        margin:10px 250px!important;
+        
+    }
+    .header-btns{
+       padding: 12px 15px;
+    }
+    .income h1{
+        font-size: 1.5rem;
+    }
+    .income p{
+        font-size: .6rem;
+    }
+    .heading h1{
+        font-size: 1.4rem;
+    }
+   
+    .card-body{
+        padding: 10px 0px!important;
+    }
+    .card-body li{
+        font-size: .9rem;
+        margin: 2px 0!important;
+        line-height: 1.8 !important;
+    }
+  
+    .card-footer a{
+        padding: 5px 15px;
+        font-size: 1rem;
+        outline: none;
+    }
+    .contactus p{
+        font-size: .7rem;
+       
+        
+    }
+   
+    .input-group-text{
+        min-width: 40px;
+    }
+    .footerdiv h3{
+        margin-top: 30px;
+    }
+}
+/* ////// extra large screens /// */
+@media only screen and (min-device-width: 800px) and (max-device-width: 960px){
+    .nav-item {
+        border: 2px solid #fff;
+        margin: 3px 260px;
+    }
+    .nav-item a{
+        background: #fff;
+        color: #00abff!important;
+    }
+    .nav-item a:hover{
+        color: #fff!important;
+        background:#00abff ;
+    }
+    .navbar h2{
+        font-size: 1.3rem; 
+    }
+    .header-sec h1{
+        font-size: 1.4rem;
+        font-weight: 600;
+    }
+    .header-sec p{
+        font-size: .8rem;
+        margin-top: 20px;
+    }
+    .header-btns a{
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+        font-size: .9rem;
+        margin:10px 300px!important;
+        
+    }
+    .header-btns{
+       padding: 12px 15px;
+    }
+    .income h1{
+        font-size: 1.5rem;
+    }
+    .income p{
+        font-size: .6rem;
+    }
+    .heading h1{
+        font-size: 1.4rem;
+    }
+    .card{
+        margin: 0px 150px;
+    }
+    .card-body{
+        padding: 10px 0px!important;
+    }
+    .card-body li{
+        font-size: .9rem;
+        margin: 2px 0!important;
+        line-height: 1.8 !important;
+    }
+  
+    .card-footer a{
+        padding: 5px 15px;
+        font-size: 1rem;
+        outline: none;
+    }
+    
+   
+    .contactus p{
+        font-size: .7rem;
+       
+        
+    }
+   
+    .input-group-text{
+        min-width: 40px;
+    }
+    .footerdiv h3{
+        margin-top: 30px;
+    }
+
+}
+
+/* /////completed/// */
