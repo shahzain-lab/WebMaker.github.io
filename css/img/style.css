@@ -415,6 +415,11 @@ form:hover .form-btn button{
     min-width: 140px;
     min-height: 40px;
 }
+.input-group-text:hover{
+    background: rgb(221, 216, 216) !important;
+    color:#ffffff !important ;
+}
+
 
 /* ///////foooter/// */
 
@@ -452,7 +457,7 @@ form:hover .form-btn button{
 
     .nav-item{
         text-align: center!important;
-        ;
+        
     }
     .nav-item {
         border: 2px solid #fff;
@@ -467,9 +472,7 @@ form:hover .form-btn button{
         color: #fff!important;
         background:#00abff ;
     }
-    .bloxkdiv{
-        margin-top: 300px;
-    }
+  
     
     .pricing{
         height: auto!important;
@@ -500,6 +503,11 @@ form:hover .form-btn button{
     
 } 
 @media only screen and (min-device-width: 320px) and (max-device-width: 400px){
+    *{
+        overflow-x: hidden!important;
+    }   
+   
+
     .nav-item {
         border: 2px solid #fff;
         margin: 3px 70px;
@@ -573,6 +581,9 @@ form:hover .form-btn button{
 
 }
 @media only screen and (min-device-width: 400px) and (max-device-width: 500px){
+    *{
+        overflow-x: hidden!important;
+    }
     .nav-item {
         border: 2px solid #fff;
         margin: 3px 130px;
@@ -645,6 +656,9 @@ form:hover .form-btn button{
     }
 }
 @media only screen and (min-device-width: 500px) and (max-device-width: 768px){
+    *{
+        overflow-x: hidden!important;
+    }
     .nav-item {
         border: 2px solid #fff;
         margin: 3px 170px;
@@ -718,6 +732,9 @@ form:hover .form-btn button{
 }
 /* ////// extra large screens /// */
 @media only screen and (min-device-width: 800px) and (max-device-width: 960px){
+    *{
+        overflow-x: hidden!important;
+    }
     .nav-item {
         border: 2px solid #fff;
         margin: 3px 260px;
