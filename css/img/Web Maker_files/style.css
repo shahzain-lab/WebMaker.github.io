@@ -66,21 +66,7 @@ i{
     z-index: -1;
     background: linear-gradient(to right,#1e5799 0%,#3ccdbb  0%,#16c9f6 100%);
 }
-.header .nav-name{
-    font-weight: bold;
-}
-.nav-name .span1{
-    color: #e700fc;
-    text-transform: lowercase;
-}
-.nav-name .span2{
-    color: #19d3da;
-    text-transform: lowercase;
-}
-.nav-name .span3{
-    color:rgb(253, 167, 7);
-    text-transform: lowercase;
-}
+
 .nav-item a{
     color: #fff!important;
     font-weight: bold;
@@ -166,7 +152,6 @@ i{
     font-weight: 600;
     text-transform: uppercase;
 }
-
 .names h1{
     color: #2e2e2e;
     font-size: 0.9rem;
@@ -474,12 +459,6 @@ form:hover .form-btn button{
         text-align: center!important;
         
     }
-    .servicediv i{
-        z-index: 21;
-    }
-    .carousel{
-    overflow-y: hidden;
-}
     .nav-item {
         border: 2px solid #fff;
         margin: 3px 250px;
