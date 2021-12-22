@@ -1,5 +1,5 @@
-# Animated-website
-### Visit this website by clicking the link given below
- https://shahzain-lab.github.io/WebMaker.github.io/
+## SCooPY - The Web Maker
+#### website template built with HTML,CSS and Bootstrap 
+ 
  
 
